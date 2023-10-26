@@ -2,7 +2,7 @@
 
 ## [2.2.1] - 2016-11-22
 - Add Calibration examples
-- Compatiable with GCode Communcation
+- Compatible with GCode Communication
 
 ## [2.1.4] - 2016-10-31
 - Add standby message [READY]
@@ -20,7 +20,7 @@
 - Encapsulate limit_range function to validate if coordinate is out of range.
 
 
-- Change sAtt sDet paramenter to 'N'
+- Change sAtt sDet parameter to 'N'
 
 ## [2.0.9] - 2016-09-01
 
@@ -147,7 +147,7 @@
 
 ### Changes
 
-- Initialize servo offset & linear offset from EEPROM to global values, prevent read EEPROM every time
+- Initialise servo offset & linear offset from EEPROM to global values, prevent read EEPROM every time
 
 - Use [EEPROM.get()][a4e46a5d] & [EEPROM.put()][275bf48d] to read & write value in EEPROM instead of saveDataToRom()
 

@@ -12,6 +12,7 @@ Specification Please read Documentation Center /API
 
 - Download and install [Arduino IDE][622f1188]  
 - Clone the source code under ```~/Arduino/libraries/```
+- Mike suggestion : looks like a library so consider structuring as a library and adding to IDE as a library (git clone to specific dir can be problematic)
 - Open Arduino IDE, choose one ```ino``` file under ```examples/```
 - Select board as ```Genuino Uno```, and port as ```/dev/ttyUSB0```(i.e. for linux)
 - Upload the example to your uArm
